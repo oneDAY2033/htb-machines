@@ -1,0 +1,13 @@
+# Sensitive/engagement-specific artifacts — never commit these
+*.pfx
+*.p12
+*.ccache
+*.kirbi
+*.kdbx
+nmap-scan/
+*.session
+.env
+
+# OS/editor cruft
+.DS_Store
+*.swp
